@@ -10,6 +10,16 @@ function Navbar() {
   const ToggleClass = () => {
     setActive(!isActive);
   };
+  const closeDialog = (id) => {
+    setActive(false); // Close the dialog
+    setTimeout(() => {
+      // Wait for the dialog to close before scrolling
+      const element = document.querySelector(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 300); // Adjust the delay as needed to ensure the dialog is closed before scrolling
+  };
   return (
     <div className="navbar w-full p-2 py-1  flex justify-between items-center border-b border-neutral-700 bg-nav fixed z-50">
       <div className="nav-start flex">
@@ -59,7 +69,7 @@ function Navbar() {
       {isActive && (
         <div className="fixed inset-0 p-2 py-1 bg-nav">
           <div className="nav-dialog flex justify-between items-center  w-full">
-            <a href="#">
+            <a href="#home">
               <img src={logo} alt="logo" loading="lazy" />
             </a>
             <button
@@ -72,24 +82,28 @@ function Navbar() {
           <div className="mt-3 flex flex-col bg-web  text-white ">
             <AnchorLink
               href="#home"
+              onClick={closeDialog}
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Home
             </AnchorLink>
             <AnchorLink
               href="#about"
+              onClick={closeDialog}
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               About
             </AnchorLink>
             <a
               href="#skills"
+              onClick={closeDialog}
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Skills
             </a>
             <a
-              href="#con"
+              href="#contact"
+              onClick={closeDialog}
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Contact Me
