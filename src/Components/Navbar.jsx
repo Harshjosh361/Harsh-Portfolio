@@ -11,7 +11,7 @@ function Navbar() {
     setActive(!isActive);
   };
   return (
-    <div className="navbar w-full p-2 py-1  flex justify-between items-center border-b border-neutral-700 bg-nav fixed z-50">
+    <div className="navbar w-full p-2 py-1  flex justify-between items-center border-b border-neutral-700 bg-nav fixed z-50 sm:overflow-x-hidden">
       <div className="nav-start flex">
         <AnchorLink href="#home">
           <img

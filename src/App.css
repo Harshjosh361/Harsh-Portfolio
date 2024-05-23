@@ -2,12 +2,26 @@
 
 body{
   height: 100%;
+  width: 100%;
   margin: 0;
   background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0));
   background-color: #1a202c; /* Fallback color for older browsers */
   overflow-x: hidden;
 }
-  
+html {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100vw; 
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
 
 li{
     list-style-type: disc;
