@@ -16,7 +16,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
-    "@vercel/speed-insights": "^1.0.10",
     "autoprefixer": "^10.4.19",
     "devicon": "^2.16.0",
     "framer-motion": "^11.2.6",
