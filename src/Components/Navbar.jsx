@@ -11,15 +11,16 @@ function Navbar() {
     setActive(!isActive);
   };
   const closeDialog = (id) => {
-    setActive(false); // Close the dialog
+    setActive(false); 
+
     setTimeout(() => {
-      // Wait for the dialog to close before scrolling
       const element = document.querySelector(id);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
-    }, 300); // Adjust the delay as needed to ensure the dialog is closed before scrolling
+    }, 300); 
   };
+
   return (
     <div className="navbar w-full p-2 py-1  flex justify-between items-center border-b border-neutral-700 bg-nav fixed z-50">
       <div className="nav-start flex">
@@ -69,9 +70,9 @@ function Navbar() {
       {isActive && (
         <div className="fixed inset-0 p-2 py-1 bg-nav">
           <div className="nav-dialog flex justify-between items-center  w-full">
-            <a href="#home">
+            <AnchorLink href="#home">
               <img src={logo} alt="logo" loading="lazy" />
-            </a>
+            </AnchorLink>
             <button
               className="text-white cursor-pointer mr-5 text-2xl bg-blue-950 w-10"
               onClick={ToggleClass}
