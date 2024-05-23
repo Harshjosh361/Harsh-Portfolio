@@ -34,7 +34,7 @@ const Hero = () => {
          className='text-6xl font-bold py-4 bg-gradient-to-r from-pink-300 via-slate-400 to-purple-500 bg-clip-text tracking-tight text-transparent'>Full Stack Developer</motion.h1>
         </div>
         <div className='mt-5 flex gap-5 justify-center items-center'>
-            <a href="https://www.linkedin.com/in/harsh-joshi-joshi-82b83530b/">    
+            <a href="https://www.linkedin.com/in/harsh-joshi-82b83530b/">    
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" width={50} height={50}/>
             </a>
             <a href="https://github.com/Harshjosh361">
