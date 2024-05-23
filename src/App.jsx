@@ -1,5 +1,6 @@
 
 import './App.css'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
