@@ -11,7 +11,7 @@ function Navbar() {
     setActive(!isActive);
   };
   return (
-    <div className="navbar w-full p-2 py-1  flex justify-between items-center border-b border-neutral-700 bg-nav fixed z-50 sm:overflow-x-hidden">
+    <div className="navbar w-full p-2 py-1  flex justify-between items-center border-b border-neutral-700 bg-nav fixed z-50">
       <div className="nav-start flex">
         <AnchorLink href="#home">
           <img
@@ -70,26 +70,26 @@ function Navbar() {
             </button>
           </div>
           <div className="mt-3 flex flex-col bg-web  text-white ">
-            <a
-              href="#"
+            <AnchorLink
+              href="#home"
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Home
-            </a>
-            <a
-              href="#"
+            </AnchorLink>
+            <AnchorLink
+              href="#about"
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               About
-            </a>
+            </AnchorLink>
             <a
-              href="#"
+              href="#skills"
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Skills
             </a>
             <a
-              href="#"
+              href="#con"
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Contact Me
