@@ -44,16 +44,16 @@ function About() {
               with a solid foundation in:
               <ul className="grid grid-cols-1 lg:grid-cols-2 list-none gap-5 mt-10">
                 <li>
-                  <span className="font-bold">Front-End Development: </span>{" "}
+                  <span className="font-bold">Front-End Development: </span>
                   HTML, CSS, JavaScript, React
                 </li>
                 <li>
-                  <span className="font-bold">Back-End Development: </span>{" "}
+                  <span className="font-bold">Back-End Development: </span>
                   Node.js, Express, Python, Java
                 </li>
                 <li>
-                  <span className="font-bold">Database Management: </span>{" "}
-                  MySQL, MongoDB
+                  <span className="font-bold">Database Management: </span>
+                   MongoDB
                 </li>
                 <li>
                   <span className="font-bold">Version Control: </span> Git,
