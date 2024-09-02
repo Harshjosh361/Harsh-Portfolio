@@ -52,8 +52,8 @@ function Skills() {
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4'>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
             </motion.div>
-            <motion.div variants={iconVariants(8)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4'>   
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />  
+            <motion.div variants={iconVariants(8)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4'>  
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" />
             </motion.div>
             <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4 '>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
