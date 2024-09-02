@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import myself from "../assets/myself.jpeg";
 
 function About() {
   return (
@@ -19,9 +20,10 @@ function About() {
         >
           <div className="flex items-center justify-center">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+              className="border border-black rounded-3xl"
+              src={myself}
               width={500}
-              height={500}
+              height={100}
             />
           </div>
         </motion.div>
