@@ -4,6 +4,12 @@ import { useState, useRef, useEffect } from 'react'
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import shopImage from '../assets/shop.png';
+import goImage from '../assets/go.png';
+import passwordImage from '../assets/password.png'
+import weatherImage from '../assets/weather.png'
+import loginImage from '../assets/login.png'
+
 
 
 const projects = [
@@ -13,7 +19,7 @@ const projects = [
     techStack: ["MERN", "Tailwind CSS","Braintree"],
     githubLink: "https://github.com/Harshjosh361/ShopEase",
     liveLink: "https://shoop-ease.vercel.app/",
-    backgroundImage: "/src/assets/shop.png"
+    backgroundImage: shopImage
   },
   {
     title: "Password-OP",
@@ -21,7 +27,7 @@ const projects = [
     techStack: ["ReactJs", "Tailwind CSS"],
     githubLink: "https://github.com/Harshjosh361/Password-OP",
     liveLink: "https://password-op.vercel.app/",
-    backgroundImage: "/src/assets/password.png"
+    backgroundImage: passwordImage
   },
   {
     title: "WheatherWhiz",
@@ -29,7 +35,7 @@ const projects = [
     techStack: ["HTML", "CSS", "Javascript"],
     githubLink: "https://github.com/Harshjosh361/WeatherWhiz",
     liveLink: "https://weather-whiz-psi.vercel.app/",
-    backgroundImage: "/src/assets/weather.png                  "
+    backgroundImage: weatherImage                
   },
   {
     title: "Login-UI",
@@ -37,14 +43,14 @@ const projects = [
     techStack: ["HTML", "CSS"],
     githubLink: "https://github.com/Harshjosh361/Login-ui",
     liveLink: "https://login-ui-theta.vercel.app/", 
-    backgroundImage: "/src/assets/login.png"
+    backgroundImage: loginImage
   },
     {
       title: "GoBalancer",
       description: "A Go-based load-balancer using round-robin for distributing traffic.",
       techStack: ["Golang"],
       githubLink: "https://github.com/Harshjosh361/GoBalancer",
-      backgroundImage: "/src/assets/go.png"
+      backgroundImage: goImage
     }
   
 ]
