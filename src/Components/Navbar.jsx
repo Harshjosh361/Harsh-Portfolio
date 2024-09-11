@@ -12,7 +12,6 @@ function Navbar() {
   };
   const closeDialog = (id) => {
     setActive(false); 
-
     setTimeout(() => {
       const element = document.querySelector(id);
       if (element) {
@@ -51,6 +50,12 @@ function Navbar() {
           className="hover:text-slate-300 hover:cursor-pointer"
         >
           Skills
+        </AnchorLink>
+        <AnchorLink
+          href="#projects"
+          className="hover:text-slate-300 hover:cursor-pointer"
+        >
+          Projects
         </AnchorLink>
         <AnchorLink
           href="#contact"
@@ -101,6 +106,13 @@ function Navbar() {
               className="font-medium m-3 p-3 text-lg hover:text-gray-300"
             >
               Skills
+            </a>
+            <a
+              href="#projects"
+              onClick={closeDialog}
+              className="font-medium m-3 p-3 text-lg hover:text-gray-300"
+            >
+              Projects
             </a>
             <a
               href="#contact"

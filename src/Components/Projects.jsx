@@ -106,12 +106,12 @@ export default function ProjectCarousel() {
   }
 
   return (
-    <div className="w-full max-w-7xl mx-auto p-4 sm:p-6  text-gray-100 mb-32">
+    <div className="w-full max-w-7xl mx-auto p-4 sm:p-6  text-gray-100 mb-32 " id='projects'>
          <h1 className="text-5xl text-center font-bold mb-5">
         My <span className="text-gray-400">Projects</span>
       </h1>
       <div className="relative">
-        <div className="overflow-hidden mt-24">
+        <div className="overflow-hidden mt-24 w-full">
           <div 
             className="flex transition-transform duration-300 ease-in-out" 
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -190,8 +190,8 @@ export default function ProjectCarousel() {
             <ChevronRight className="h-4 w-4" />
             <span className="sr-only">Next project</span>
           </Button>
-        </div>
+        </div>  
       </div>
     </div>
   )
-}
+} 
