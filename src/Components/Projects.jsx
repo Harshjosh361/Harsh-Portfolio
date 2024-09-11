@@ -125,7 +125,6 @@ export default function ProjectCarousel() {
                 <div className="absolute inset-0 z-0  ">
                   <img
                     src={project.backgroundImage}
-                    alt={`Background for ${project.title}`}
                     layout="fill"
                     objectFit="cover"
                     className="opacity-20"
