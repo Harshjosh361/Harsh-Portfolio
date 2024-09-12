@@ -5,7 +5,7 @@ import myself from "../assets/myself.jpeg";
 function About() {
   return (
     <div
-      className="p-8 pb-4 text-white  border-b border-gray-300 overflow-x-hidden"
+      className="p-8 pb-4 text-white overflow-x-hidden"
       id="about"
     >
       <h1 className="text-5xl text-center font-bold mb-5">
@@ -51,7 +51,7 @@ function About() {
                 </li>
                 <li>
                   <span className="font-bold">Back-End Development: </span>
-                  Node.js, Express, Python, Java
+                  Node.js, Express, Go, Java
                 </li>
                 <li>
                   <span className="font-bold">Database Management: </span>

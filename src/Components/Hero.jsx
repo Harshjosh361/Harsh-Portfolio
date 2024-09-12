@@ -14,7 +14,7 @@ const Hero = () => {
   })
 
   return (
-    <div className="backdrop-brightness-80 border-b border-gray-900 pb-24" id="home">
+    <div className="backdrop-brightness-80" id="home">
     <div className="h-screen  p-20 flex flex-col justify-center items-center text-white">
         <div className='flex flex-col justify-center md:items-center mt-10'>
         <motion.h1 

@@ -158,7 +158,7 @@ export default function ProjectCarousel() {
                       </a>
                     </Button>
                     {project.liveLink  &&
-                    <Button variant="outline" size="sm" className="w-full md:w-32 bg-gray-700/80 text-gray-200 hover:bg-gray-600/80" asChild>
+                    <Button variant="outline" size="sm" className="w-full md:w-32 lg:mr-10 bg-gray-700/80 text-gray-200 hover:bg-gray-600/80" asChild>
                        <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4 " />
                         Live Demo
