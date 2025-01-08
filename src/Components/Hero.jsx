@@ -57,16 +57,16 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             className="text-6xl font-bold py-4">
-            Hi, I'm Harsh!
+            Hi, I&apos;m Harsh!
           </motion.h1>
           <motion.h1 
             variants={container(0.5)}
             initial="hidden"
             animate="visible"
             className="text-6xl font-bold py-4">
-            I'm a 
+            I&apos;m a 
           </motion.h1> 
-          <motion.h1
+          <motion.h1  
             variants={container(1)}
             initial="hidden"
             animate="visible" 
