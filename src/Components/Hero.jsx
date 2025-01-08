@@ -94,7 +94,7 @@ const Hero = () => {
           whileTap="tap"
         >
           <motion.a
-            href="mailto:your.email@example.com"
+            href="mailto:harshjosh361@gmail.com"
             className="block w-full px-12 py-5 text-lg font-bold text-white bg-gradient-to-r from-[#2E1065] via-[#7E22CE] to-[#C026D3] relative text-center"
           >
             Hire Me
