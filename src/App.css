@@ -1,14 +1,14 @@
-
-
-body{
+body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0));
-  background-color: #1a202c; /* Fallback color for older browsers */
-  overflow-x: hidden;
-}
-html {
+  background: radial-gradient(
+    ellipse 80% 80% at 50% -20%,
+    rgba(184, 70, 202, 0.15),
+    rgba(139, 92, 246, 0.1),
+    rgba(67, 56, 202, 0)
+  );
+  background-color: #09090b;
   overflow-x: hidden;
 }
 
