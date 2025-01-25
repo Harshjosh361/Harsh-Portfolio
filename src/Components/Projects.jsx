@@ -1,5 +1,3 @@
-'use client'
-
 import { useState, useRef, useEffect } from 'react'
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from 'lucide-react'
 import { Button } from "@/components/ui/button"
@@ -69,7 +67,7 @@ export default function ProjectCarousel() {
 
   useEffect(() => {
     cardRefs.current = cardRefs.current.slice(0, projects.length)
-  }, [projects])
+  }, [])
 
   const handleMouseMove = (e, index) => {
     const card = cardRefs.current[index]
