@@ -24,9 +24,18 @@ function Skills() {
             <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4'>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
             </motion.div>
-            <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4 '>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-            </motion.div>
+            <motion.div 
+  variants={iconVariants(4)} 
+  initial="initial" 
+  animate="animate" 
+  className='border-4 border-gray-600 rounded-2xl p-4'
+>
+  <img 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" 
+    style={{ filter: 'invert(1)' }} 
+    alt="Express Logo" 
+  />
+</motion.div>
             <motion.div variants={iconVariants(8)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4 '>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
             </motion.div>
@@ -61,10 +70,11 @@ function Skills() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
             </motion.div>
             <motion.div variants={iconVariants(8)} initial="initial" animate="animate" className='border-4 border-gray-600 rounded-2xl p-4'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" 
+              style={{filter:'invert(1)'}}/>
             </motion.div>
         </div>
     </div>
