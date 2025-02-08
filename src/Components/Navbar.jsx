@@ -35,31 +35,31 @@ function Navbar() {
       <div className="hidden nav-mid lg:flex gap-12 text-white font-sans mr-20 text-xl">
         <AnchorLink
           href="#home"
-          className="hover:text-slate-300 hover:cursor-pointer "
+          className="hover:text-slate-300 hover:cursor-pointer hover:underline"
         >
           Home
         </AnchorLink>
         <AnchorLink
           href="#about"
-          className=" hover:text-slate-300 hover:cursor-pointer"
+          className=" hover:text-slate-300 hover:cursor-pointer hover:underline"
         >
           About
         </AnchorLink>
         <AnchorLink
           href="#skills"
-          className="hover:text-slate-300 hover:cursor-pointer"
+          className="hover:text-slate-300 hover:cursor-pointer hover:underline"
         >
           Skills
         </AnchorLink>
         <AnchorLink
           href="#projects"
-          className="hover:text-slate-300 hover:cursor-pointer"
+          className="hover:text-slate-300 hover:cursor-pointer hover:underline"
         >
           Projects
         </AnchorLink>
         <AnchorLink
           href="#contact"
-          className="hover:text-slate-300 hover:cursor-pointer"
+          className="hover:text-slate-300 hover:cursor-pointer hover:underline"
         >
           Contact Me
         </AnchorLink>
